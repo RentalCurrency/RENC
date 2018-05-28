@@ -1,0 +1,35 @@
+Token name: RENC Sharing Platform
+
+Token ticker: RENC
+
+Token decimals: 18
+
+Multisig wallet address: 0x3350467F04888a1bB50d7b5A3943d986038597bd
+
+*****************************
+
+Crowdsale rate: 1250
+
+Crowdsale start time: 2018-05-21T10:30 (GMT + 9)
+
+Crowdsale end time: 2018-09-20T00:00 (GMT + 9)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Finalize agent contract name: ReservedTokensFinalizeAgent
+
+Finalize agent contract address for RENC_1: 0xA518284598128a1C1c6a674839B9794E73D52F8F
+
+*****************************
+
+****Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"distributedReservedTokensDestinationsLen","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"reservedTokensDistributionBatch","type":"uint256"}],"name":"distributeReservedTokens","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"reservedTokensAreDistributed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"inputs":[{"name":"_token","type":"address"},{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor"}]
+
+****Finalize agent contract ABI encoded constructor arguments for RENC_1:**** 
+
+0000000000000000000000006b8c2d8f0978fa79fa28fdfde625d700fd9af2df0000000000000000000000007245054a409331760e61e9ce9e087c9cac987790
